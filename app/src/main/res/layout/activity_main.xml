@@ -23,6 +23,14 @@
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/btn_star_big_on" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast"
+        android:onClick="ToastMe"
+        />
+
     <ScrollView
         android:id="@+id/bio_scroll"
         android:layout_width="match_parent"

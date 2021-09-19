@@ -21,14 +21,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/layout_margin"
         android:contentDescription="@string/yellow_star"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:ignore="ImageContrastCheck" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Toast"
-        android:onClick="ToastMe"
+        android:text="@string/toast"
+        android:onClick="toastMe"
         />
 
     <ScrollView

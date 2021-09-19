@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun ToastMe(view: android.view.View) {
-        val myToast = Toast.makeText(this, "Hello Toast!", Toast.LENGTH_SHORT)
-        myToast.show()}
+    fun toastMe(view: android.view.View) {
+        Toast.makeText(this, "Hello Toast!", Toast.LENGTH_SHORT).show()
+    }
 }
